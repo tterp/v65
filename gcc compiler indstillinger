@@ -1,0 +1,4 @@
+
+  SDL
+gcc -Wall `sdl2-config --cflags --libs` -c "%f"
+gcc -Wall `sdl2-config --cflags --libs`  -o "%e" "%f"
