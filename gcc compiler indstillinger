@@ -1,0 +1,10 @@
+
+  SDL
+
+Geany
+gcc -Wall `sdl2-config --cflags --libs` -c "%f"
+gcc -Wall `sdl2-config --cflags --libs`  -o "%e" "%f"
+
+in terminal
+gcc  -Wall `sdl2-config --cflags --libs` -c test5a.c
+gcc -Wall `sdl2-config --cflags --libs` test5a.o -o  test5a
